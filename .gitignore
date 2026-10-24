@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Local database and logs
+data/*.db
+data/*.db-*
+logs/
+
+# Generated datasets
+data/*.csv
+
+# IDE
+.vscode/
+
+# Generated artifacts and backups
+artifacts/
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
